@@ -15,6 +15,8 @@ namespace AspNetBundles
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/Style.css"));
+
+            BundleTable.EnableOptimizations = true;
         }
     }
 }
