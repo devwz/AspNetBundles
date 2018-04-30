@@ -1,2 +1,16 @@
-﻿body {
+﻿body
+{
+    margin: 0;
+}
+
+nav
+{
+    height: 60px;
+    background-color: lightgreen;
+}
+
+footer
+{
+    height: 120px;
+    background-color: lightblue;
 }
