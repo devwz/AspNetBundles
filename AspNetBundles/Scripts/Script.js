@@ -1,3 +1,4 @@
 ﻿
-let txt = "Hello World!";
-console.log(txt);
+let txt = 'This file is minified!';
+
+document.getElementById('home').innerHTML = txt;

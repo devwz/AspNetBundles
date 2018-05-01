@@ -1,6 +1,10 @@
 ﻿body
 {
     margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav
@@ -9,8 +13,14 @@ nav
     background-color: lightgreen;
 }
 
+main
+{
+    flex: 1 0 auto;
+    padding: 20px;
+}
+
 footer
 {
-    height: 120px;
+    height: 180px;
     background-color: lightblue;
 }
